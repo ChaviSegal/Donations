@@ -1,0 +1,46 @@
+
+import React from 'react';
+import './Navbar.css'
+import { Link } from 'react-router-dom'
+import { RateReview } from '@mui/icons-material';
+import changeCoin from "./App"
+import ChangeColorButton from './ChangeColorButton';
+import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
+import IconButton from '@mui/material/IconButton';
+import Tooltip from '@mui/material/Tooltip';
+
+
+const Navbar = (props) => {
+
+  return (<nav className='navbar'>
+
+    <img className="logo" src="data:image/png;base64,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"></img>
+    <Link className="Link" to="/Donations" >Donations</Link>
+    <Link className="Link" to="/Donate">Donate</Link>
+    <Link className="Link" to="/Home">Home</Link>
+    <div className='ChangeColorButton'>
+      <ChangeColorButton />
+    </div>
+
+    <Tooltip title="Convert coin">
+      <div className='changeCoinButton' >
+        <IconButton onClick={props.changeCoin}
+          style={{
+            backgroundColor: 'lightblue', // ניתן לשנות צבע רקע
+            borderRadius: '50%', // ניתן לשנות את פינות הרינג
+            padding: '10px', // ניתן לשנות גודל הרינג
+            color: 'white', // ניתן לשנות צבע הטקסט
+            // ניתן להוסיף עוד סגנונות ותכונות לפי הצורך
+            backgroundColor: 'rgb(113, 57, 204)',
+          }}>
+          <CurrencyExchangeIcon style={{ fontSize: '2rem' }} />
+        </IconButton>
+      </div>
+    </Tooltip>
+    {/* <Link className="Link" to="/MyForm">לטופס</Link> */}
+  </nav>
+  );
+};
+
+export default Navbar;
+

@@ -1,0 +1,572 @@
+ 
+ .MuiTextField-root {
+  width: 100%; /* רוחב מלא */
+}
+
+.MuiOutlinedInput-input {
+  height: 50px; /* גובה כללי */
+  padding: 10px; /* רווח פנימי */
+  box-sizing: border-box; /* הקפיצה של כמויות הרוחב והגובה כוללים padding וborder */
+  text-align: center; /* מיקום טקסט באמצע */
+}
+
+/* הוסף את השורה הבאה רק אם יש לך placeholder נראה */
+.MuiInputLabel-root.Mui-focused {
+  color: rgb(113, 57, 204) !important;
+}
+
+.toast-success {
+  background-color: #4caf50; /* רקע ההודעה בצבע ירוק */
+  color: #fff; /* צבע הטקסט בהודעה */
+  border-radius: 8px; /* העגלות של ההודעה */
+  /* position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+.changeCoinButton{
+  margin-right:1%;
+}
+
+.ChangeColorButton{
+  margin-right:2%;
+  margin-left: 5%;
+}
+.Link{
+  margin-right:2%;
+
+}
+.sortCoin{
+  margin-left:9%;
+   border: solid;
+  border-color:    rgb(113, 57, 204) ; 
+  /* border-radius: 50%; */
+  background-color:rgb(250, 195, 77) ;
+  background-color:'rgb(250, 195, 77)' ;
+
+
+}
+.valueButton{
+  width:50px;
+  /* border-radius: 50%; */
+  /* padding-top: 10%; */
+  /* border-color:    rgb(113, 57, 204) ; */
+  /* padding-left: 15%;
+  padding-right:90%;
+  padding-left:100%; */
+  /* background-color:rgb(250, 195, 77) ; */
+  /* margin-left:10%;
+  padding-top: 10%;
+  padding-bottom:10%;
+  margin-right:10%; */
+
+
+   /* padding-left:50%; */
+   /* padding-right:250%; */
+   /* padding-right:120%;
+   padding-top:90%; */
+
+
+}
+
+.showSuccessMessage{
+  text-align: center;
+  margin-top: 20%;
+}
+
+.toast-body-success {
+  font-size:120%; /* גודל הטקסט בהודעה */
+  font-weight: bold; /* עובי הטקסט בהודעה */
+
+}
+
+.please{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+  box-shadow: 3%;
+  margin-left: 3%;
+}
+ .contribution{
+  margin-left:3%;
+  margin-top:2%;
+} 
+.donationDetales{
+  display: grid;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  border-radius:2%;
+font-size:20px;
+/* box-sizing: border-box; */
+  border-style: solid;
+border-color:  rgb(113, 57, 204) ;
+padding-left: 5%;
+padding-right: 1%;
+margin-left: 1%;
+width:280px;
+/* padding: 2%; */
+padding-left: 2px;
+border-width: 2px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+padding-bottom:0.5px;
+}
+.donorName .donorAmount .donorDeditation{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom:0.5%;
+}
+
+#fullWidth{
+  width: 20%;
+}
+
+.submitButton Button{
+  background-color:   rgb(113, 57, 204) ;
+  width: 10%;
+  text-align: center;
+  margin-left:9%;
+
+}
+.formInputs{
+  display: grid;
+}
+
+/* .formDonates Button{
+  border-color:  rgb(113, 57, 204) ;
+} */
+
+/* .allSearches Button{
+ padding-left: 5%;
+  width:100%;
+} */
+ 
+ /* .contribution{
+  display: grid;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   border-radius:2%;
+font-size:20px;
+box-sizing: border-box;
+   border-style: solid;
+border-color:  rgb(113, 57, 204) ;
+padding-left: 1%;
+padding-right: 1%;
+margin-left: 2%;
+width:80%;
+padding: 2%; */
+/* text-align: center; */
+/* } */
+
+/* .donorName, .donorAmount, .donorDeditation{
+  display: grid;
+  margin-bottom: 2%;
+} */
+
+/* .sameLine{
+  display: flex;
+  margin-bottom: 2%;
+} */
+
+.contribution .donorName{
+  margin-right: 5%;
+}
+
+
+
+
+
+
+/* .contribution p h5{
+  color:rgb(113, 57, 204) ;
+} */
+.donationDate{
+  margin-top: 0.5%;
+margin-left: 3%;
+}
+
+.Donations h1{
+ text-align: center;
+}  
+
+p .oneDonation{
+
+  margin-left: 2%;
+} 
+/* .donate{
+  border-style: solid;
+
+} */
+.goalDetales{
+  font-size: x-large;
+  margin-top: 1%;
+}
+
+.goal{
+   margin-left: 5%;
+   /* width: 100%; */
+   display:flex;
+  grid-template-rows:1fr,1fr;
+}
+.goalDetales img{
+  width: 5%;
+  padding: 5%;
+  margin-left: none;
+  margin-top: none;
+  margin-bottom: none;
+}
+
+.goal .goalimg{
+  width: 45%;
+  border: none;
+  margin-top: 4%;
+  border-radius:3% ;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+.goal p{
+  border-style: double;
+  border-color:rgb(250, 195, 77);
+  border-width: 10%;
+  border-spacing: 4%;
+  padding-left: 3%;
+  width: 45%;
+  border-radius:3% ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+.goal p h1{
+  color:  rgb(113, 57, 204);
+}
+
+.navbar {
+  margin-top: 3%;
+  display: flex;
+  /* background-color: rgb(250, 195, 77); */
+  padding: 0.9%;
+  justify-content: space-evenly;
+  text-decoration: none;
+  margin-left: 2.5%;
+  height: 40px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:3% ;
+}
+ /* .myHome{
+  border-style: solid;
+ 
+} */
+
+.home{
+   display: grid;
+   margin-left: 3%;
+  grid-template-columns: repeat(auto-fill, minmax(48%, 1fr)); /* שימו לב לאורך הקוד שזהו תמונות  ולא div 
+   gap: 1%;
+   margin-top: 5%;
+  margin-left: 7%;  
+  /* height: 10%;
+  width: 35%;  */
+  /* border-radius:3% ; */
+  /* width: 100%; */
+}
+
+footer{
+  background-color:  rgb(250, 195, 77);
+  padding: 20px;
+  width:97%;
+  margin-right: 0px;
+  margin-left: 0%;
+  justify-content: center;
+text-align: center;
+/* margin-left: auto; */
+border-style: solid;
+border-color: rgb(250, 195, 77);
+border-radius: 3%;
+margin-top: 1%;
+margin-bottom: 1%;
+margin-left: 0.3%;
+margin-right: 0.3%;
+
+}
+footer h1{
+  text-align: center;
+}
+/* .goal{
+  border-style: solid;
+} */
+
+.about{
+  
+  width: 70%;
+  margin-left: 35%;
+  text-align: center;
+  border-style: solid;
+  border-color:   rgb(250, 195, 77);
+  background-color: rgb(113, 57, 204);
+  color: black;
+  font-size:x-large;
+  border-radius:7% ;
+  padding: 3%;
+margin-top: 3%;
+  margin-left: 4%;
+  
+  border-style: solid;
+}
+.aboutP{
+  text-align: center;
+  margin-left: 15%;
+
+}
+.aDiv{
+  border-style: solid;
+}
+.search{
+/* text-align: center; */
+
+/* flex-direction: row; */
+/* justify-content: center; */
+width:100%;
+height: 50%;
+margin-left:none;
+/* margin-left: 30%;
+margin-top: 5%; */
+font-size: larger;
+margin-bottom: 2%;
+margin-top: 3%;
+
+}
+
+/* .allSearches{
+  display: grid;
+} */
+
+.sort-options {
+  display: flex;
+  gap:2%; /* יצר רווח בין האלמנטים */
+
+}
+
+/* .sort-options button {
+  flex: 1; /* יצר אפשרות לכל כפתור למלא את כל הרוחב שלו */
+/* } */ */
+
+.sort-options button {
+  /* flex: 1; הגדרת flex: 1 תאפשר לכל כפתור למלא את כל הרוחב שלו */
+  /* width:40%; כאן נגדיר רוחב מסוים לכל כפתור, אפשר לשנות את המספר למספר אחר כךובלמידה */
+}
+
+/* #outlined-basic .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color:  rgb(113, 57, 204); /* צבע גבול של שדה הטקסט בעת מעבר העכבר (hover) */
+/* } */
+
+#outlined-basic input {
+  color: darkblue; /* צבע טקסט של שדה הטקסט */
+  border-color: darkblue; /* צבע גבול של שדה הטקסט */
+}
+/* .inputt{
+  width: 70%;
+  border-color:  rgb(113, 57, 204);
+  color:   rgb(113, 57, 204);
+} */
+/* .search Button{
+  margin-top: 2%;
+  margin-left: 46%;
+  color:rgb(113, 57, 204) ;
+  border: solid,rgb(113, 57, 204) ;
+
+} */
+
+ .search Button{
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  /* padding-left: 5%;
+  padding-right:5%; */
+  width:15%;
+  /* text-align: center;
+  justify-content: center; */
+   /* margin-left: 15%; */
+  margin-top: 1.5%;
+  border-radius:5%;
+ background-color:  rgb(113, 57, 204);
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+  
+}  
+
+
+ .formInput{
+  padding: 50%;
+}
+
+
+#outlined-basic .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color:  rgb(113, 57, 204); /* צבע גבול של שדה הטקסט בעת מעבר העכבר (hover) */
+}
+
+.searchInput{
+  padding: 1%;
+  width: 20%;
+  /* text-align: center;
+  justify-content: center; */
+  margin-left: 10%;
+  margin-top: 1.5%;
+  border-radius: 5%;
+  border-color:  rgb(113, 57, 204);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h1{
+  color: rgb(250, 195, 77) ;
+}
+.logo2{
+  margin-left: 25%;
+  height: 100%;
+}
+.navbar .Link {
+  margin-right: 2%;
+  margin-left: 6%;
+  font-size: x-large;
+  text-decoration:none;
+  background-color:white;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius:45%;
+  padding:1%;
+  border-style: solid;
+  border-color:  rgb(129, 84, 201);
+  /* text-align: center; */
+}
+.logo{
+  padding-top: 7%;
+/* height: 70px; */
+padding: 0px;
+margin-left: 0%;
+text-align: left;
+direction: ltr;
+}
+/* .basicButtons {
+  margin-top: 50px;
+} */
+
+.formDonates .personalDetailes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+width: 60%;
+height: 50%;
+margin-left: 30%;
+margin-top: 5%;
+
+}
+
+/* .allSearches{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+} */
+
+.inputSorts{
+  text-align: center;
+  /* margin-top: 1%; */
+  /* display: grid; */
+  margin-top: 2%;
+  
+  /* width: 10%; */
+}
+.inputSorts h1{
+  margin-bottom: none;
+}
+
+.inputSorts select{
+  padding-top:0.2px;
+  padding-bottom:0.2px ;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  /* margin-left: 40%; */
+  /* margin-top: 1.5%; */
+  border-radius: 5%;
+  border-color:  rgb(113, 57, 204);
+  border-width: 3px;
+  color:  rgb(113, 57, 204);
+}
+
+
+
+.formDonates div input {
+direction: rtl;
+
+padding: 0.5%;
+width: 30%;
+display: flex;
+flex-direction: column;
+text-align: center;
+border-radius: 5px;
+}
+.formDonates div  {
+margin-top: 3%;
+  }
+
+.formDonates {
+  margin-top: 5%;
+margin-left: 25%;
+
+}
+input[type="submit"]{
+  margin-top: 2%;
+padding: 0.9%;
+width: 15%;
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-left: 7%;
+/* justify-content: space-evenly; */
+cursor: pointer; 
+border-radius: 5px;
+color: black;
+justify-content:center;
+padding-left: 6%;
+}
+/* .formDonates .personalDetailes{
+  margin-left: 25%;
+} */
+.error-message{
+  color: red;
+  /* display: grid; 
+   grid-direction: column;
+  text-align: center; */
+  margin-left: 7%;
+}
+.submitButton Button:hover {
+  background-color: rgb(113, 57, 204);
+}
+
+.sort-options Button:hover{
+  background-color: rgb(113, 57, 204);
+
+}
+
+.button-class:hover {
+  background-color: צבע_חדש;
+}
+
+.children{
+  /* display: grid;
+  grid-template-columns: repeat(1fr,1fr);
+  gap: 1%; */
+   /* margin-top: 5%;
+  margin-left: 5%;
+  height: 10%;
+  width: 35%; */
+  border-radius:3% ;
+  /* width: 30%;  */
+  width: 80%;
+  margin-top: 4%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+.goalimg{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
